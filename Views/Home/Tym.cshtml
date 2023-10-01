@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Tym";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="~/Content/canvas.css" />
+    <link rel="stylesheet" href="~/Content/indexx.css" />
+    <link rel="stylesheet" href="~/Content/present.css" />
+    <link rel="stylesheet" href="~/Content/card.css" />
+
+</head>
+<body>
+    <div class="parent">
+        <canvas id="canvas"></canvas>
+        <section class="above-fold">
+            <div class="wrap-present">
+                <div class="present-box" id="present">
+                    <div class="present">
+                        <div class="img-wrap" id="present-image">
+                            <img class="img-wrap" src="~/a6ddd54c877c53220a6d.jpg" />
+                        </div>
+                    </div>
+                    <div class="side front"></div>
+                    <div class="side back"></div>
+                    <div class="side left"></div>
+                    <div class="side right"></div>
+                    <div class="side top">
+                        <span class="to">
+                            <span class="name" id="nametag">
+                            </span>
+                        </span>
+                    </div>
+                    <div class="side bottom"></div>
+                </div>
+            </div>
+            <p class="info-text">Click to Open</p>
+        </section>
+        <div id="card">
+            <h4>💘 5 month rưỡi 💘</h4>
+            <h4>Nói chung là tự hiểu đi làm biến nói =))💘</h4>
+        </div>
+    </div>
+    <script src="~/Scripts/canvas.js"></script>
+    <script src="~/Scripts/present.js"></script>
+</body>
+</html>
+
